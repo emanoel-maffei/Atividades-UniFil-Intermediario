@@ -1,0 +1,51 @@
+* {
+    transition: 250ms;
+    cursor: default;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    height: 100vh;
+    margin: 0px;
+}
+
+table {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A-sbWHI5_L1qwt3kJF_MFmPDmx40o73tFg&s");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+
+    /* border-collapse: collapse; */ /*  */
+    border-color: white;
+    border-radius: 1px;
+}
+
+thead {
+    background-color: black;
+}
+
+td, th {
+    padding: 10px;
+}
+
+thead:hover {
+    background-color: white;
+    color: black;
+}
+
+td:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+/* tds impares */
+/* td:nth-child(even) {
+    background-color: white;
+    color: black;
+} */
