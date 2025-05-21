@@ -1,0 +1,199 @@
+/* tudo */
+
+* {
+    text-align: justify;
+    outline: none;
+    cursor: default;
+}
+
+/* tudo */
+/* body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+}
+
+/* body */
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: hsl(0, 100%, 30%);
+    /* width: 100%; -> erro com a scrollbar */
+    height: 100px;
+    color: hsl(0, 0%, 95%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.icons {
+    font-size: 2em;
+
+    transition: 500ms;
+}
+
+.icons:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+/* header */
+/* nav */
+
+nav {
+    background-color: darkred;
+    color: white;
+    padding: 7.5px;
+}
+
+nav > a {
+    color: lightskyblue;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* nav */
+/* conteudo */
+
+p {
+    margin-left: 30px;
+}
+
+p, ul {
+    width: 90%;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-left: 20px;
+}
+
+/* conteudo */
+/* compartilhamento */
+
+#compartilhamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 200px;
+}
+
+#compartilhamento > .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3em;
+
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 90%);
+    box-shadow: 0px 0px 10px hsl(0, 0%, 95%);
+}
+
+#facebook {
+    color: blue;
+}
+
+#whatsapp {
+    color: hsl(120, 100%,30%);
+}
+
+#compartilhar {
+    color: black;
+    text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+}
+
+/* comparilhamento */
+/* img */
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+img {
+    width: 80%;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 80%);
+    box-shadow: 0px 0px 10px hsl(0, 0%, 80%);
+}
+
+
+/* img */
+/* hr */
+
+hr {
+    background-color: black;
+    width: 95%;
+    height: 2.5px;
+    border: none;
+}
+
+/* hr */
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* eixo X */
+    align-items: start; /* eixo Y */
+
+    background-color: hsl(0, 100%, 30%);
+    color: white;
+}
+
+/* footer */
+/* sections */
+
+section#partes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+section#parte-2 {
+    background-color: white;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-width: 2.5px;
+    border-bottom-left-radius: 10px;
+    border-color: grey;
+    padding-left: 10px;
+}
+
+aside {
+    width: 90%;
+}
+
+aside > p {
+    width: 90%;
+}
