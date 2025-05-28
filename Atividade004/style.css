@@ -1,0 +1,57 @@
+* {
+    cursor: default;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 2.5px;
+}
+
+h4 {
+    margin-left: 5px;
+}
+
+main {
+    color: white;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.section-pai {
+    background-color: hsl(0, 0%, 0%);
+    width: 80%;
+
+    padding: 25px;
+
+    border-radius: 10px;
+}
+
+
+audio, video, iframe {
+    width: 100%;
+    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.25);
+    
+    padding: 5px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+audio {
+    border-width: 5px;
+    border-radius: 50px;
+}
