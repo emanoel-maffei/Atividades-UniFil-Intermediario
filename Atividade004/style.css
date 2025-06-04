@@ -55,3 +55,7 @@ audio {
     border-width: 5px;
     border-radius: 50px;
 }
+
+video {
+    max-width: 786px;
+}
