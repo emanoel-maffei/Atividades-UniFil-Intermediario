@@ -41,6 +41,40 @@ section.section-pai {
     border-radius: 10px;
 }
 
+table {
+    background-color: white;
+    width: 100%;
+    color: black;
+    text-align: center;
+    max-height: 500px;
+
+    overflow: auto;
+
+    /* border-collapse: collapse; */
+}
+
+td, th.th {
+    transition: 300ms;
+}
+
+td:hover, th.th:hover {
+    background-color: black;
+    color: white;
+}
+
+td {
+    padding: 2.5px;
+}
+
+a {
+    color: hsl(240, 100%, 70%);
+
+    cursor: pointer;
+}
+
+a:hover {
+    color: yellow;
+}
 
 audio, video, iframe {
     width: 100%;
@@ -54,9 +88,16 @@ audio, video, iframe {
 }
 
 audio {
+    opacity: 0.9;
+    transition: 300ms;
+
     border-width: 5px;
     border-radius: 50px;
 }
+
+audio:hover {
+    opacity: 1;
+} 
 
 video {
     max-width: 786px;
