@@ -1,4 +1,4 @@
-/* JavaScript da Atividade001 da parte JS */
+/* JavaScript da Atividade002 da parte JS */
 
 /* 
     metodos para vetores/arrays
